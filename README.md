@@ -1,18 +1,23 @@
-## Getting Started
+# Pasta de exercícios propostos no curso de Java + POO ([link](https://www.udemy.com/course/java-curso-completo/))
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### 1° exercício proposto:
 
-## Folder Structure
+Fazer um programa para ler o caminho de um arquivo .csv contendo os dados de itens vendidos. Cada item possui um nome, preço unitário e quantidade, separados por vírgula. Você deve gerar um novo arquivo chamado "summary.csv", localizado em uma subpasta chamada "out" a partir da pasta original do arquivo de origem, contendo apenas o nome e o valor total para aquele item (preço unitário multiplicado pela quantidade), conforme exemplo.
 
-The workspace contains two folders by default, where:
+Exemplo:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Source file:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+TV LED, 1290.99, 1 |
+Video Game Chair, 350.50, 3 |
+Iphone X, 900.00, 2 |
+Samsung Galaxy 9, 850.00, 2 
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Output file (out/summary.csv):
+
+TV LED, 1290.99 |
+Video Game Chair, 1051.50 |
+IPhone X, 1800.00 |
+Sumsung Galaxy 9, 1700.00
